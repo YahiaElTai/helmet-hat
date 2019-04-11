@@ -1,6 +1,6 @@
 # helmet-hat
 
-[![Build Status](https://travis-ci.org/YahiaElTai/helmet-hat.svg?branch=master)](https://travis-ci.org/YahiaElTai/helmet-hat) [![dependencies Status](https://david-dm.org/YahiaElTai/helmet-hat/status.svg)](https://david-dm.org/YahiaElTai/helmet-hat) [![devDependencies Status](https://david-dm.org/YahiaElTai/helmet-hat/dev-status.svg)](https://david-dm.org/YahiaElTai/helmet-hat?type=dev) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.com/YahiaElTai/helmet-hat.svg?branch=master)](https://travis-ci.com/YahiaElTai/helmet-hat) [![dependencies Status](https://david-dm.org/YahiaElTai/helmet-hat/status.svg)](https://david-dm.org/YahiaElTai/helmet-hat) [![devDependencies Status](https://david-dm.org/YahiaElTai/helmet-hat/dev-status.svg)](https://david-dm.org/YahiaElTai/helmet-hat?type=dev) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 A React component that automatically fills meta tags including og / twitter with a render props to allow you to render any kind of page.
 You just need to wrap your pages with `helmet-hat` through the render props and give it your desired helmet tags, and voila!
