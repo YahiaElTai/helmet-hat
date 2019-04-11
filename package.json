@@ -1,0 +1,51 @@
+{
+  "name": "helmet-hat",
+  "version": "0.0.1",
+  "description": "A React component that automatically fills meta tags including og / twitter with a render props to allow rendering any kind of page.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0"
+  },
+  "scripts": {
+    "build": "rm -rf dist && SET \"NODE_ENV=production\"=production && babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YahiaElTai/helmet-hat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YahiaElTai/helmet-hat/issues"
+  },
+  "homepage": "https://github.com/YahiaElTai/helmet-hat#readme",
+  "keywords": [
+    "react-helmet",
+    "helmet with render props",
+    "helmet wrapper",
+    "meta tags",
+    "og",
+    "open graph",
+    "twitter"
+  ],
+  "author": "Yahia El Tai",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-scripts": "^2.1.8",
+    "react-test-renderer": "^16.8.6"
+  }
+}
