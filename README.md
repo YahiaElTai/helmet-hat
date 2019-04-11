@@ -82,8 +82,8 @@ const myHelmetConfig = {
 
   const Content = () => (
     <div>
-      <p>I'm the Component and all rights are reserved to me!</p>
-      <p>Do not underestimate me! I'm a very powerful Component</p>
+      <p>Im the Component and all rights are reserved to me</p>
+      <p>Do not underestimate me! Im a very powerful Component</p>
     </div>
   );
 
