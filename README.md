@@ -1,5 +1,7 @@
 # helmet-hat
 
+[![Build Status](https://travis-ci.org/YahiaElTai/helmet-hat.svg?branch=master)](https://travis-ci.org/YahiaElTai/helmet-hat) [![dependencies Status](https://david-dm.org/YahiaElTai/helmet-hat/status.svg)](https://david-dm.org/YahiaElTai/helmet-hat) [![devDependencies Status](https://david-dm.org/YahiaElTai/helmet-hat/dev-status.svg)](https://david-dm.org/YahiaElTai/helmet-hat?type=dev) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 A React component that automatically fills meta tags including og / twitter with a render props to allow you to render any kind of page.
 You just need to wrap your pages with `helmet-hat` through the render props and give it your desired helmet tags, and voila!
 
@@ -103,15 +105,17 @@ export default HomePage;
 
 ### Important Notes
 
-1. All `react-helmet` props are optional.
+1. `react-helmet` is required as a peerDependency.
 
-2. if you provide `title`, it will be used as default title for the open graph protocol and twitter title meta tags unless you provide them separately (eg: `og: {title: 'og specific title'}`) .same goes for `description`, `image` and `url` props.
+2. All `react-helmet` props are optional.
 
-3. if `application-name` meta tag is not provided the `sitename` will be used if the latter is provided.
+3. if you provide `title`, it will be used as default title for the open graph protocol and twitter title meta tags unless you provide them separately (eg: `og: {title: 'og specific title'}`) .same goes for `description`, `image` and `url` props.
 
-4. if `canonical` link tag is not provided the `url` will be used if the latter is provided.
+4. if `application-name` meta tag is not provided the `sitename` will be used if the latter is provided.
 
-5. quick reminder for twitter
+5. if `canonical` link tag is not provided the `url` will be used if the latter is provided.
+
+6. quick reminder for twitter
    - Twitter Title Max Length = `70`;
    - Twitter Desc Max Length = `200`;
 
